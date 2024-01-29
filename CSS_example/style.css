@@ -1,6 +1,6 @@
-.bigger_text{
-	font-size:xx-large
-}
+h1 {
+	font-size: 28px;
+  }
 
 #centered_text {
 	text-align: center;
@@ -15,12 +15,12 @@
 }
 
 .orange {
-	color: blueviolet;
+	color: #333333;
 }
 
 
 .styledFont {
-	font-family: monospace, monaco, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 
 #styledImage {
@@ -28,3 +28,5 @@
 	border-width: 10px 12px 15px 25px;
 	border-color: red green blue rgb(20, 13, 1);
 }
+
+
