@@ -1,0 +1,226 @@
+
+
+* {
+  box-sizing: border-box;
+}
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+     @media only screen and (max-width: 1200px) {
+      body {
+        background-color: rgb(224, 130, 7);
+        color: black; }
+      }
+
+      /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    body {background: rgb(10, 96, 21);
+    color:#333; }
+  } 
+      
+      /* On screens that are 768px wide or less, the background color is rgb */
+      @media screen and (max-width: 768px) {
+        body {
+          background-color: rgb(25, 232, 215);
+          color: white; }
+        }
+        .column {
+            flex:50%
+            max-width: 50%;
+            padding: 20px;
+        }
+
+        /* container for flexboxes */
+        .column {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        /* create four equal columns */
+        .column {
+            flex: 50%;
+            padding: 20px;
+        }
+        .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px;
+    }
+      
+      /* On screens that are 600px wide or less, the background color is rgb */
+      @media screen and (max-width: 400px) {
+        body {
+          background-color: rgb(221, 22, 151);
+          color: white;
+        }
+
+      
+      }
+
+    .header {
+        color: #eee;
+        text-align: center;
+        font-size: x-large;
+        display: inline-block;
+        margin: 0;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    h1 { 
+        color: #eee;
+        font-size:28px;
+        text-align: right;
+    }
+    
+    h2 {
+        font-size: 28px;
+        text-align: center;
+        background-color: #686762;
+        color:antiquewhite;
+    }
+
+    h3 { 
+        color: #eee;
+        font-size:28px;
+        text-align: center;
+    
+    }
+
+
+    .p3 {
+        color: #eee;
+    
+    
+    }
+      
+    .contact-info {
+        float: center;
+        width: 30%;
+        line-height: 1
+    }
+    
+    .bio-image {
+        float: center;
+        width: 100px;
+        height: 200px;
+        padding: 20px;
+        margin-right: auto;
+        margin-bottom: auto;
+        border: 40px lightblue;
+       }
+    
+    .footer {
+        font-size: inherit;
+        background-color: #333;
+        color:#eee;
+        margin: auto;
+        margin-top: 5in;
+        padding: 10px;
+        text-align: center;
+    
+      }
+
+      .navbar {
+        display: flex;
+        background-color: #333;
+    }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    nav ul li {
+        float: left;
+        cursor: pointer;
+        flex: auto;
+        text-align: center;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to orange when hovered */
+    nav ul li a:hover {
+        background-color: orange;
+    }
+
+    @media all and (max-width: 400px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        text-align: center;
+      }
+    }
+    
+
+    .topnav a {
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+    }
+    .topnav a:hover {
+      background-color: orange;
+  }
+
+    .container {
+        margin: auto;
+        position: relative;
+        
+    }
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        color: #efeee7;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        color: #333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+      
+      .desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .hero-image {
+        background-image: url("flowerpic.jpg");
+        background-color: #cccccc;
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
